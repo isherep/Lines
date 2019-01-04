@@ -1,10 +1,18 @@
-# Lines
+# Lines and More Lines
+
+This is a coursework project from CSC 142 Class.
+
+Project uses new concepts: reading data from a file and storing objects in an array.
+This program has no user interface except for drawing panel output (in the extra credit portion) but will
+certainly have unit tests that ensures all objects/methods are behaving as intended.
+
+
+Using the input file with information about lines, create lines.
 
 The input file will contain the following elements, in order:
 • On the first line, an integer indicating how many Lines are represented in the file.
 • One additional data line per Line, each having doubles representing slope and y intercept followed by
 three integers representing the red, green, and blue components of the line’s color. The color
-elements are in the range of 0 to 255.
 • Data elements are separated by spaces.
 4.2 Example Contents
 2
@@ -14,14 +22,6 @@ The example file’s contents are interpreted as follows:
 • There are two Lines represented in the file
 • The first line’s equation is y = 4x – 2 and has color R=240, G=56, and B=33.
 • The second line’s equation is y = x + 5 and has color R=0, G=200, B=175.
-4.3 Notes
-• Create the file in notepad or in another text editor.
-• If you rely on text files for testing (this is expected), don’t forget to include them in your submission.
-• You are not responsible for bad data; if the file isn’t created correctly and it blows up your program,
-that’s okay for now.
-
- UML Class Diagrams for the classes you are to create. Create exactly these methods, with exactly
-the parameters and return types shown. See the next page for other important notes.:
 
 Line
 
